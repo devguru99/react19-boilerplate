@@ -2,8 +2,11 @@
   "name": "care-beyond-icu",
   "private": true,
   "version": "0.1.0",
+  "homepage": "https://devguru99.github.io/react19-boilerplate",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite --host localhost.care",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -15,6 +18,7 @@
     "@mui/material": "6.3.0",
     "@mui/system": "6.3.0",
     "@mui/utils": "6.3.0",
+    "gh-pages": "^6.2.0",
     "is-mobile": "^5.0.0",
     "notistack": "^3.0.1",
     "path": "^0.12.7",
