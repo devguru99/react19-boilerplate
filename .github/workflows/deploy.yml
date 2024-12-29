@@ -17,8 +17,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
 
+      - name: Install yarn
+        run: npm install yarn
+
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: yarn
 
       - name: Build project
         run: npm run build
