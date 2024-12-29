@@ -5,8 +5,7 @@
   "homepage": "https://devguru99.github.io/react19-boilerplate",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host localhost.care",
     "build": "tsc && vite build",
     "preview": "vite preview"
