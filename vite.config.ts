@@ -7,6 +7,10 @@ import manifest from './manifest.json';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/react19-boilerplate/', // Set the base path to your repo name
+  build: {
+    outDir: 'dist', // Optional: Output directory for the production build
+  },
   plugins: [
     react(),
     VitePWA({
