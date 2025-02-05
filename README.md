@@ -5,7 +5,7 @@
  <img src="./public/cover.png" title="Base App">
 </a>
 
-# Care Beyond ICU 🚀🎉⚡️
+# React 19 MUI 6 Boilerplate 🚀🎉⚡️
 
 **Modern web applications for Virtual Medical Practice!**
 
